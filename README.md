@@ -55,7 +55,7 @@ Tempo Total: 83 ms
 ## Conceitos estudados no desafio:
 - Threads e programação concorrente.
 - Interface Runnable.
-- Método Thread.start() e join().
+- Métodos Thread.start(), join(), Executors.newVirtualThreadPerTaskExecutor(), ExecutorService, submit() e Virtual Threads.
 - Identificação da Thread atual com Thread.currentThread().
 - Diferenças entre Platform Threads e Virtual Threads.
 - Leitura de arquivos utilizando BufferedReader e Files.
