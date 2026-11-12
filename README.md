@@ -12,10 +12,12 @@ O objetivo deste projeto é demonstrar a utilização de Threads em Java para ex
 
 ## Funcionalidades:
 - Pesquisa de nomes em arquivos .txt.
-- Leitura simultânea de múltiplos arquivos.
+- Leitura simultânea de múltiplos arquivos utilizando BufferedReader.
+- Seleção dos 10 usuários mais frequentes utilizando PriorityQueue.
 - Identificação do número da linha em que o nome foi encontrado.
 - Contagem de ocorrências por arquivo.
 - Medição do tempo total de execução.
+- Ordenação dos resultados por frequência utilizando Comparator.
 - Tratamento de exceções durante a leitura dos arquivos.
 - Exibição de resultados de forma organizada no console.
 
@@ -30,7 +32,8 @@ DesafioThread/
 ├── out/
 ├── src/
 │   ├── BuscaNomeRunnable.java
-│   └── Main.java
+│   ├── Main.java
+│   └── TopUsersFromLargeLog.java
 ├── .gitignore
 ├── DesafioThread.iml
 └── README.md
@@ -52,6 +55,10 @@ Todas as buscas foram finalizadas.
 Tempo Total: 83 ms
 ```
 
+## Arquivos usados:
+- TopUsersFromLargeLog.java
+- arquivos/logs.txt
+
 ## Conceitos estudados no desafio:
 - Threads e programação concorrente.
 - Interface Runnable.
@@ -59,7 +66,14 @@ Tempo Total: 83 ms
 - Identificação da Thread atual com Thread.currentThread().
 - Diferenças entre Platform Threads e Virtual Threads.
 - Leitura de arquivos utilizando BufferedReader e Files.
+- Java Collections Framework.
+- HashMap e PriorityQueue. 
+- Comparator e ordenação. 
+- Manipulação de Strings. 
+- Análise de complexidade de algoritmos. 
+- Processamento de arquivos linha a linha.
 
 ## Referências:
 - [Tutorial sobre Threads em Java - YouTube](https://youtu.be/OXqtS_nhUfk?si=TvotCZvL_ogJtu1o)
 - [Desafio Thread em Java](https://www.matheusleandro.com.br/desafios/vaga-de-estagio-em-desenvolvimento-java)
+- [Desafio Java do iFood: E se o Arquivo for Grande??](https://www.youtube.com/watch?v=o1-o6IVZppY)
